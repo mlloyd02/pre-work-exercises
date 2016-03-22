@@ -9,7 +9,7 @@ for num in 1..100
 	if "#{num}"[0] == "1"
 		result << "Bang"
 	end
-	if !(num % 3 == 0 || num % 5 == 0 || "#{num}"[0] == "1")
+	if result == ""
 		result << "#{num}"
 	end
 	puts result
